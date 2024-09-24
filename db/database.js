@@ -6,7 +6,7 @@ const mongoose=require('mongoose')
         
     } catch (error) {
         console.error(error);
-        
+        process.exit(1);
     }
 }
 module.exports=connectDB;
